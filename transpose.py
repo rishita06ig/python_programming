@@ -2,11 +2,7 @@ A =[
     [1,2,3],
     [4,5,6]
     ]
-###trans = [[A[i][j] for j in range(len(A))] for i in range(len(A[0]))]
-
-
 trans = []
-
 for i in range(len(A[0])):      
     row = []
     for j in range(len(A)):     
